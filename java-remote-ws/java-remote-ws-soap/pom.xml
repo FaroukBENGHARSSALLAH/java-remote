@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+			<groupId>com.farouk.bengharssallah.java.remote.webservice</groupId>
+			<artifactId>java-remote-ws</artifactId>
+			<version>${project-global-version}</version>
+	</parent>
+	<groupId>com.farouk.bengharssallah.java.remote.webservice.soap</groupId>
+	<artifactId>java-remote-ws-soap</artifactId>
+    <packaging>pom</packaging>
+
+	<name>Java Soap WebService APIs</name>
+	<description>Module library containing Java Soap WebService APIs</description>
+	
+    <modules>
+    	<module>java-remote-ws-soap-server</module>
+		<module>java-remote-ws-soap-client</module>
+    </modules>
+	
+</project>
